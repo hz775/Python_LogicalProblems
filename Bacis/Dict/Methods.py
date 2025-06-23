@@ -1,0 +1,16 @@
+d={"name":"Hemanth","age":20,"Gender":"Male"}
+print(d.get("name"))
+print(d.get("city","N/A"))
+print(d.keys())
+print(d.values())
+print(d.items())
+d.update({"city":'chennai'})
+print(d)
+print(d.pop("age"))
+print(d)
+print(d.popitem())              #remove last inserted items
+print(d)
+print(d.setdefault("Gender","Male"))
+d.clear()
+print(d)
+#copy()
