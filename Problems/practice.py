@@ -32,6 +32,44 @@ for i in range(len(arr)):
             count+=1
     res.append(count)
 print(res)
+
+
+list=[0, 1, 0, 3, 12]
+mul=[]
+for i in range(len(list)):
+    if list[i]==0:
+        pass
+    else:
+        mul.append(list[i])
+for i in range(len(list)):
+    if list[i]==0:
+        mul.append(list[i])
+print(mul)
+
+list=[0, 1, 0, 3, 12]
+for i in range(len(list)):
+    if list[i]==0:
+        list.remove(0)
+        list.append(0)
+print(list)
+    
+
+
+list=[1, 5, 7, -1, 5]
+sum=6
+found=[]
+for i in range(len(list)):
+    for j in range(i+1,len(list)):
+        if list[i]+list[j]==sum:
+            pair=[list[i],list[j]]
+            if pair not in found:
+                found.append(pair)
+                print(pair)
+
+        
+
+
+
     
 
 
