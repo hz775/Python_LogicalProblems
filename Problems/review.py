@@ -10,7 +10,6 @@ def countelement(list):
             if count>n//2:
                 return list[i]
             
-            if 
                 
     
 

@@ -8,5 +8,5 @@ def kth_largest(lst, k):
             return i
 
 # res=kth_largest([1,2,3,4,5],2)
-res=kth_largest([1,2,3,4,5],4)
+res=kth_largest([1,2,3,4,5],2)
 print(res)

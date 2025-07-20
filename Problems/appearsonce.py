@@ -1,4 +1,4 @@
-list=[2, 3, 2, 4, 4]
+list=[1,2,3,4]
 res=[]
 for i in range(len(list)):
     count=0
@@ -6,4 +6,5 @@ for i in range(len(list)):
         if list[i]==list[j]:
             count+=1
     if count==1:
-        print(list[i])
+        res.append(list[i])
+print(res)
